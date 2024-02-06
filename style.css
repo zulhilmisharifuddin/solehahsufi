@@ -1,6 +1,10 @@
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+body {
+    font-family: "Quicksand";
+    letter-spacing: .5;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 a {
     color: white;
@@ -18,12 +22,8 @@ a {
     border-radius: 30px;
 }
 
-body {
-    font-family: "Quicksand";
-    letter-spacing: .5;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+a:hover {
+    background-color: black;
 }
 
 p {
