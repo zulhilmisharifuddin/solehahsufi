@@ -1,0 +1,56 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+a {
+    color: white;
+    background-color: #222;
+    padding: 1em 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+body {
+    font-family: "Quicksand";
+    letter-spacing: .5;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+img {
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 500px;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1em;
+    background-color: #222;
+    color:white;
+    padding: 1em;
+}
+
