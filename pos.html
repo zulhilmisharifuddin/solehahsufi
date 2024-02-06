@@ -2,16 +2,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Penghantaran</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 
-
     <link rel="stylesheet" href="style.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script> 
+        $(function(){
+            $("#header").load("header.html");                
+            $("#footer").load("footer.html");
+        });
+    </script> 
+
 </head>
+
+<header><div id="header"></div></header>
+
 <body>
     <h1>Penghantaran</h1>
     <img src="images\PosLaju_Logo.png" alt="">
@@ -36,4 +46,7 @@
 
     <p style="font-style: italic;">Buat masa ini kami tidak mengambil dan menghantar pesanan ke kawasan luar dari Malaysia.</p>
 </body>
+
+<footer><div id="footer"></div></footer>
+
 </html>
