@@ -4,19 +4,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solehah Sufi</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script> 
         $(function(){
+            $("#head").load("head.html");
             $("#header").load("header.html");                
             $("#footer").load("footer.html"); 
         });
     </script> 
+
+    <div id="head"></div>
 
 </head>
 
@@ -31,11 +28,15 @@
         
         <p>Puan-puan boleh dapatkan katalog dan jualan terbaru melalui WhatsApp kami di nombor berikut:</p>
 
+    <div style="display: flex; flex-wrap: wrap; justify-content: center;">    
+
         <a href="https://wa.me/60129380760?text=Solehah+Sufi" target="_blank" rel="noopener" title="Solehah Sufi WhatsApp">012 9380 760</a>
+
+    </div>    
 
         <p>Atau klik sahaja butang berikut ini untuk terus ke WhatsApp, Facebook atau Instagram kami</p>
 
-        <div style="display: flex; flex-wrap: wrap; column-gap: 1em;">
+        <div style="display: flex; flex-wrap: wrap; column-gap: 0.5em; row-gap: 0.5em; justify-content: center;">
 
             <a href="https://wa.me/60129380760?text=Solehah+Sufi" target="_blank">WhatsApp</a>
 
