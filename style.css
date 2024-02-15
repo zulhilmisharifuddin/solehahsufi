@@ -40,8 +40,8 @@ a {
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.3);
 }
 
-a:hover {
-    background-color: black;
+a:hover, div a:hover {
+    background-color: 891c47;
 }
 
 p {
