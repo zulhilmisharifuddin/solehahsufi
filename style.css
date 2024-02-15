@@ -32,11 +32,11 @@ body {
 a {
     color: white;
     background-color: #333;
-    padding: 2px 10px;
+    padding: 5px 10px;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.3);
 }
 
