@@ -23,9 +23,13 @@ body {
 }
 
 a {
+    
+}
+
+a.button {
     color: white;
     background-color: #222;
-    padding: 5px 10px;
+    padding: 0.5em 1em;
     text-decoration: none;
     text-transform: uppercase;
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.3);
@@ -78,7 +82,7 @@ div.center {
   
 .topnav {
     overflow: hidden;
-    background-color: #fff;
+    background-color: #891c47;
     position: relative;
 }
   
@@ -89,8 +93,10 @@ div.center {
 .topnav a {
     color: white;
     padding: 1em 1em;
-    text-decoration: none;
     font-size: 1em;
+    letter-spacing: 0.3em;
+    text-decoration: none;
+    text-transform: uppercase;
     display: block;
 }
   
@@ -100,11 +106,6 @@ div.center {
     position: absolute;
     right: 0;
     top: 0;
-}
-  
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
 }
   
 .active {
