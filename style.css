@@ -1,13 +1,6 @@
 #header {
     text-align: center;
-    background-color: #891c47;
     color:white;
-    padding: 1em;
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 0.5em;
-    column-gap: 0.5em;
-    justify-content: center;
 }
 
 h1 {
@@ -35,14 +28,12 @@ a {
     padding: 5px 10px;
     text-decoration: none;
     text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 1px;
-    border-radius: 5px;
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.3);
 }
 
 a:hover, div a:hover {
-    background-color: #891c47;
+    background-color: #ddd;
+    color: #222;
 }
 
 p {
@@ -83,4 +74,40 @@ div.center {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+  
+.topnav {
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+}
+  
+.topnav #myLinks {
+    display: none;
+}
+  
+.topnav a {
+    color: white;
+    padding: 1em 1em;
+    text-decoration: none;
+    font-size: 1em;
+    display: block;
+}
+  
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.active {
+    background-color: #222;
+    color: white;
 }
