@@ -107,6 +107,10 @@ div.center {
     right: 0;
     top: 0;
 }
+
+.topnav a.icon:hover {
+    color: white;
+}
   
 .active {
     background-color: #222;
