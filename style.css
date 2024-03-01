@@ -1,3 +1,10 @@
+/* Color Theme Swatches in Hex */
+.Copy-of-Pastels-1-hex { color: #FFCDD1; }
+.Copy-of-Pastels-2-hex { color: #FFE9B6; }
+.Copy-of-Pastels-3-hex { color: #F1FFC7; }
+.Copy-of-Pastels-4-hex { color: #B7F4D8; }
+.Copy-of-Pastels-5-hex { color: #E1C6FF; }
+
 #header {
     text-align: center;
     color:white;
@@ -27,16 +34,17 @@ a {
 }
 
 a.button {
-    color: white;
-    background-color: #222;
+    color: #222;
+    background-color: #E1C6FF;
     padding: 0.5em 1em;
     text-decoration: none;
     text-transform: uppercase;
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.3);
+    border-radius: 30%;
 }
 
 a:hover, div a:hover {
-    background-color: #ddd;
+    background-color: #FFE9B6;
     color: #222;
 }
 
@@ -68,8 +76,8 @@ iframe {
 }
 
 div.section {
-    background-color: #891c47;
-    color: white;
+    background-color: #B7F4D8;
+    color: black;
     padding: 2em 3em;
     margin-bottom: 2em;
 }
@@ -82,7 +90,7 @@ div.center {
   
 .topnav {
     overflow: hidden;
-    background-color: #891c47;
+    background-color: #E1C6FF;
     position: relative;
 }
   
