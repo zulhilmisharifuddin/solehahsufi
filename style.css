@@ -20,6 +20,10 @@ h1 {
     padding: 1em;
 }
 
+h2 {
+    text-transform: uppercase;
+}
+
 body {
     font-family: "Urbanist";
     letter-spacing: 0.03em;
@@ -35,16 +39,16 @@ a {
 
 a.button {
     color: #222;
-    background-color: #E1C6FF;
+    background-color: #FFE9B6;
     padding: 0.5em 1em;
     text-decoration: none;
     text-transform: uppercase;
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.3);
-    border-radius: 30%;
+    border-radius: 2em;
 }
 
 a:hover, div a:hover {
-    background-color: #FFE9B6;
+    background-color: #E1C6FF;
     color: #222;
 }
 
@@ -90,14 +94,18 @@ div.center {
   
 .topnav {
     overflow: hidden;
-    background-color: #E1C6FF;
+    background-color: #FFE9B6;
     position: relative;
 }
   
 .topnav #myLinks {
     display: none;
 }
-  
+
+.topnav #myLinks a {
+    color: #222;
+}
+
 .topnav a {
     color: white;
     padding: 1em 1em;
