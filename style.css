@@ -34,6 +34,7 @@ h2 {
     text-transform: uppercase;
     background-color: #E1C6FF;
     padding: 0 0.5em;
+    margin-top: 2em;
 }
 
 a {
@@ -65,8 +66,7 @@ p {
 
 img {
     display: block; 
-    margin-right: auto; 
-    margin-left: auto; 
+    margin: 2em auto; 
     width: 80vw;
     max-width: 500px;
 }
