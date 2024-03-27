@@ -1,3 +1,9 @@
+/* Font */
+@font-face {
+    font-family: "avenir";
+    src: url(fonts/Avenir\ Medium.ttf);
+}
+
 /* Color Theme Swatches in Hex */
 .color1 { color: #FFCDD1; }
 .color2 { color: #FFE9B6; }
@@ -14,6 +20,7 @@
 body {
     color: #222;
     font-family: "Urbanist";
+    /* font-family: "avenir"; */
     letter-spacing: 0.1em;
     width: 90vw;
     max-width: 600px;
