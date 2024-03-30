@@ -123,6 +123,7 @@ div.center {
     letter-spacing: 0.3em;
     text-decoration: none;
     text-transform: uppercase;
+    text-align: left;
     display: block;
     border: solid 1px #222;
     margin: 1em auto;
