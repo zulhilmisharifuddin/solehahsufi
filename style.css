@@ -1,9 +1,3 @@
-/* Font */
-@font-face {
-    font-family: "avenir";
-    src: url(fonts/Avenir\ Medium.ttf);
-}
-
 /* Color Theme Swatches in Hex */
 .color1 { color: #FFCDD1; }
 .color2 { color: #FFE9B6; }
@@ -20,8 +14,11 @@
 
 body {
     color: #222;
-    font-family: "Urbanist";
-    letter-spacing: 0.1em;
+    font-family: "Lora";
+    font-family: "Quicksand";
+    /* font-family: "Urbanist"; */
+    font-weight: 400;
+    font-size: 18px;
     width: 97vw;
     max-width: 1000px;
     margin-left: auto;
@@ -56,7 +53,7 @@ a.button {
     background-color: #222;
     padding: 0.5em 1em;
     font-size: 1.05em;
-    font-weight: bold;
+    /* font-weight: bold; */
     letter-spacing: 0.1em;
     text-decoration: none;
     text-transform: uppercase;
