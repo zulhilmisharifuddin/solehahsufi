@@ -91,7 +91,7 @@ iframe {
 
 div.section {
     padding: 2em 3em;
-    margin-bottom: 2em;
+    margin: 2em 0;
     border: solid 2px #222;
 }
 
