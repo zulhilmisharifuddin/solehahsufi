@@ -14,12 +14,9 @@
 
 body {
     color: #222;
-    font-family: "Lora";
     font-family: "Quicksand";
-    /* font-family: "Urbanist"; */
     font-weight: 400;
     font-size: 18px;
-    width: 97vw;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -65,8 +62,8 @@ a:hover, div a:hover {
 }
 
 p {
-    margin-left: auto; 
-    margin-right: auto;
+    /* margin-left: auto; 
+    margin-right: auto; */
 }
 
 img {
@@ -78,7 +75,7 @@ img {
 
 iframe {
     display: block;
-    margin: 2em auto;
+    margin: auto;
 }
 
 #footer {
