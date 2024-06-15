@@ -26,7 +26,7 @@ body {
 h1 {
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.03em;
     color:#222; 
     padding: .7em;
     border: solid 2px #222;
