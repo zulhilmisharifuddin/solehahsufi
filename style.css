@@ -45,7 +45,7 @@ a.button {
     text-decoration: none;
     text-transform: uppercase;
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.3);
-    border-radius: 2px;
+    border-radius: 25px;
 }
 
 a:hover, div a:hover {
