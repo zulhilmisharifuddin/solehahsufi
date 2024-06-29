@@ -3,6 +3,11 @@
     src: url(fonts/Futura\ PT\ Book.ttf);
 }
 
+@font-face {
+    font-family: Neue;
+    src: url(fonts/Neue\ Kabel\ Light.ttf);
+}
+
 #header {
     text-align: center;
     color:white;
@@ -10,9 +15,7 @@
 
 body {
     color: #222;
-    font-family: "Quicksand";
-    /* font-family: "Futura"; */
-    font-weight: 400;
+    font-family: "Neue";
     font-size: 20px;
     max-width: 1000px;
     margin-left: auto;
@@ -24,7 +27,7 @@ h1 {
     font-family: "Futura";
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.03em;
+    letter-spacing: 2px;
     color:#222; 
     padding: .7em;
     border: solid 2px #222;
@@ -34,6 +37,7 @@ h2 {
     font-family: "Futura";
     text-transform: uppercase;
     text-decoration: underline;
+    letter-spacing: 2px;
     color: #222;
     padding: 0 0.5em;
     margin-top: 2em;
@@ -49,7 +53,7 @@ a.button {
     padding: 0.5em 1em;
     font-size: 1.05em;
     /* font-weight: bold; */
-    letter-spacing: 0.1em;
+    letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.3);
@@ -120,7 +124,7 @@ div.flex-button {
     color: #fff;
     padding: 1em 1em;
     font-size: 1em;
-    letter-spacing: 0.3em;
+    letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
     text-align: left;
