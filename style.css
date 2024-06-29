@@ -10,8 +10,8 @@
 
 body {
     color: #222;
-    /* font-family: "Quicksand"; */
-    font-family: "Futura";
+    font-family: "Quicksand";
+    /* font-family: "Futura"; */
     font-weight: 400;
     font-size: 20px;
     max-width: 1000px;
@@ -21,6 +21,7 @@ body {
 }
 
 h1 {
+    font-family: "Futura";
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.03em;
@@ -30,6 +31,7 @@ h1 {
 }
 
 h2 {
+    font-family: "Futura";
     text-transform: uppercase;
     text-decoration: underline;
     color: #222;
@@ -42,6 +44,7 @@ a {
 }
 
 a.button {
+    font-family: "Futura";
     color: #fff;
     background-color: #222;
     padding: 0.5em 1em;
