@@ -1,11 +1,16 @@
 @font-face {
-    font-family: Futura;
+    font-family: "Futura";
     src: url(fonts/Futura\ PT\ Book.ttf);
 }
 
 @font-face {
-    font-family: Neue;
+    font-family: "Neue";
     src: url(fonts/Neue\ Kabel\ Light.ttf);
+}
+
+@font-face {
+    font-family: "Garamond";
+    src: url(fonts/Adobe\ Garamond\ Pro\ Regular.ttf);
 }
 
 #header {
@@ -16,6 +21,7 @@
 body {
     color: #222;
     font-family: "Neue";
+    font-family: "Garamond";
     font-size: 20px;
     max-width: 1000px;
     margin-left: auto;
