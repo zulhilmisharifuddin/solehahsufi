@@ -70,11 +70,6 @@ a:hover, div a:hover {
     box-shadow: 3px 3px 10px 0px rgba(0,0,0,0.5);
 }
 
-p {
-    /* margin-left: auto; 
-    margin-right: auto; */
-}
-
 img {
     display: block; 
     width: 95vw;
@@ -94,7 +89,7 @@ iframe {
     text-align: center;
     margin-top: 1em;
     padding: 1em;
-    color: white;
+    color: #fff;
     background-color: #222;
 }
 
