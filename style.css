@@ -121,6 +121,15 @@ div.flex-button {
 
 .topnav #myLinks a {
     color: #222;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.topnav #myLinks a:hover {
+    color: #fff;
+    background-color: #222;
+    box-shadow: none;
+
 }
 
 .topnav a {
