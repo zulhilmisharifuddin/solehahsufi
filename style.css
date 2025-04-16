@@ -94,6 +94,8 @@ iframe {
     text-align: center;
     margin-top: 1em;
     padding: 1em;
+    color: white;
+    background-color: #222;
 }
 
 div.section {
