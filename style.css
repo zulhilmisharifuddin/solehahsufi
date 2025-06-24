@@ -1,16 +1,16 @@
 @font-face {
-    font-family: "Futura";
-    src: url(fonts/Futura\ PT\ Book.ttf);
+    font-family: "Lexend-Light";
+    src: url(fonts/Lexend-Light.ttf);
 }
 
 @font-face {
-    font-family: "Neue";
-    src: url(fonts/Neue\ Kabel\ Light.ttf);
+    font-family: "Lexend-Regular";
+    src: url(fonts/Lexend-Regular.ttf);
 }
 
 @font-face {
-    font-family: "Garamond";
-    src: url(fonts/Adobe\ Garamond\ Pro\ Regular.ttf);
+    font-family: "Lexend-Medium";
+    src: url(fonts/Lexend-Medium.ttf);
 }
 
 #header {
@@ -20,9 +20,9 @@
 
 body {
     color: #222;
-    font-family: "Neue";
-    font-family: "Garamond";
-    font-size: 20px;
+    font-family: "Lexend-Light";
+    letter-spacing: .03em;
+    font-size: 1em;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -30,7 +30,6 @@ body {
 }
 
 h1 {
-    font-family: "Futura";
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -40,7 +39,6 @@ h1 {
 }
 
 h2 {
-    font-family: "Futura";
     text-transform: uppercase;
     text-decoration: underline;
     letter-spacing: 2px;
@@ -50,15 +48,15 @@ h2 {
 }
 
 a {
-    font-family: "Futura";    
+
 }
 
 a.button {
     color: #fff;
     background-color: #222;
     padding: 0.5em 1em;
-    font-size: 1.05em;
-    /* font-weight: bold; */
+    font-size: 1.2em;
+    font-family: "Lexend-Regular";
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
@@ -83,7 +81,6 @@ iframe {
 }
 
 #footer {
-    font-family: "Futura";
     text-transform: uppercase;
     border: solid 2px #222;
     text-align: center;
