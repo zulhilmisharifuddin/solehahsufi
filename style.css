@@ -13,6 +13,11 @@
     src: url(fonts/Lexend-Medium.ttf);
 }
 
+@font-face {
+    font-family: "Playfair";
+    src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
 #header {
     text-align: center;
     color:white;
@@ -21,7 +26,6 @@
 body {
     color: #222;
     font-family: "Lexend-Light";
-    letter-spacing: .03em;
     font-size: 1em;
     max-width: 1000px;
     margin-left: auto;
@@ -29,22 +33,32 @@ body {
     padding: 0 10px;
 }
 
+body p {
+    letter-spacing: 0.05em;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair";
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
 h1 {
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 2px;
     color:#222; 
-    padding: .7em;
+    padding: 0.7em;
     border: solid 2px #222;
 }
 
 h2 {
     text-transform: uppercase;
-    text-decoration: underline;
-    letter-spacing: 2px;
     color: #222;
-    padding: 0 0.5em;
+    padding: 0.5em;
     margin-top: 2em;
+    border: solid 2px #222;
 }
 
 a {
