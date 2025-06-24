@@ -107,7 +107,7 @@ iframe {
 div.section {
     padding: 20px;
     margin: 2em 0;
-    border-left: solid 1px #222;
+    background-color: #00000010;
 }
 
 div.flex-button {
