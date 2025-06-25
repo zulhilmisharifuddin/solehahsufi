@@ -1,21 +1,11 @@
 @font-face {
-    font-family: "Lexend-Light";
-    src: url(fonts/Lexend-Light.ttf);
-}
-
-@font-face {
-    font-family: "Lexend-Regular";
-    src: url(fonts/Lexend-Regular.ttf);
-}
-
-@font-face {
-    font-family: "Lexend-Medium";
-    src: url(fonts/Lexend-Medium.ttf);
-}
-
-@font-face {
     font-family: "Playfair";
     src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Lexend";
+    src: url(fonts/Lexend-VariableFont_wght.ttf);
 }
 
 #header {
@@ -25,7 +15,8 @@
 
 body {
     color: #222;
-    font-family: "Lexend-Light";
+    font-family: "Lexend";
+    font-weight: 250;
     font-size: 1em;
     max-width: 1000px;
     margin-left: auto;
@@ -70,7 +61,8 @@ a.button {
     background-color: #222;
     padding: 0.5em 1em;
     font-size: 1.2em;
-    font-family: "Lexend-Regular";
+    font-family: "Lexend";
+    font-weight: 400;
     letter-spacing: 2px;
     text-decoration: none;
     text-transform: uppercase;
