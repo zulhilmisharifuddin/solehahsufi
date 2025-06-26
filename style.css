@@ -81,9 +81,8 @@ img {
     margin: 1em auto;
 }
 
-iframe {
-    display: block;
-    margin: auto;
+iframe.fb-post {
+    /* width: 100%; */
 }
 
 #footer {
