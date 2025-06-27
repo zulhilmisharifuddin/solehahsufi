@@ -81,10 +81,6 @@ img {
     margin: 1em auto;
 }
 
-iframe.fb-post {
-    /* width: 100%; */
-}
-
 #footer {
     text-transform: uppercase;
     border: solid 2px #222;
