@@ -111,6 +111,7 @@ div.flex-button {
 .topnav {
     overflow: hidden;
     position: relative;
+    /* background-color: rgba(0,0,0,0.5); */
 }
   
 .topnav #myLinks {
@@ -119,8 +120,7 @@ div.flex-button {
 
 .topnav #myLinks a {
     color: #222;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.1);
+    border: dashed 1px #222;
 }
 
 .topnav #myLinks a:hover {
