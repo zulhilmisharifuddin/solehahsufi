@@ -120,7 +120,7 @@ div.flex-button {
 
 .topnav #myLinks a {
     color: #222;
-    border: dashed 1px #222;
+    margin: 1em auto;
 }
 
 .topnav #myLinks a:hover {
@@ -139,9 +139,6 @@ div.flex-button {
     text-transform: uppercase;
     text-align: left;
     display: block;
-    border: solid 1px #222;
-    margin: 1em auto;
-
 }
   
 .topnav a.icon {
